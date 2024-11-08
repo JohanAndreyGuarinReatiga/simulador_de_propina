@@ -1,3 +1,4 @@
+from menu import calculateTip, divideAmountsMenu,leaveProgram
 def design():
     print(f"""
     =============================================
@@ -9,4 +10,5 @@ def design():
     =============================================
     """)
     options = int(input("Por favor, elige una opción (1-3): "))
+        
     return options
